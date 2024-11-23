@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    color: aliceblue;
+   font-weight: 900;
+    font-size: 40px;
+    font-family: "Playwrite DE Grund", cursive;
+}
+p{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 500;
+}
+.navBar{
+    padding: 5px;
+    justify-content: space-between;
+    height: 90px;
+    display: flex;
+    background-color: hsl(274, 81%, 50%);
+}
+.logo{
+    display:flex;
+    font-size: 25px;
+    color: hsl(185, 56%, 87%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.logo:hover{
+cursor: pointer;
+}
+.logo_img{
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    margin:10px;
+}
+.logo text{
+    padding: 5px;
+    margin: 10px;
+    
+}
+.otherBtn{
+    text-align: right;
+    display: flex;
+    padding: 30px;
+    
+
+}
+.otherBtn a{
+   display: block;
+   font-size: 20px;
+   font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 194, 253);
+    text-decoration: none;
+}
+.otherBtn ul{
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.otherBtn li {
+    display: inline-block;
+    margin-right: 25px;
+}
+.otherBtn a:hover{
+    transition: 1s;
+    color: rgb(255, 255, 255);
+  
+}
+.intro{
+    margin: 22px;
+    display:flex;
+    padding: 22px;
+}
+.info{
+    margin-top: 230px;
+   animation: SlideInLeft 3s ease-in;
+    padding:20px;
+}
+
+
+@keyframes SlideInLeft {
+    from{
+         translateY:200px;
+    }
+    to{
+         translateY:0;
+    }
+}
+
+.slide-up{
+    animation: SlideInLeft 3s ease-in ;
+}
+
+.main-sec{
+    margin:10%;
+    padding:20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: hsl(203, 40%, 71%);
+    border-radius: 20px;
+    overflow: hidden;
+}
+ .sec{
+    margin:4%;
+    padding:10px;
+    text-align: center;
+    background-color: hsla(18, 77%, 52%, 0.863);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.sec:hover{
+    background-color: hsla(18, 77%, 56%, 0.863);
+    transform: scale(1.1);
+    transition-duration: 1.2s;
+}
+.head{
+    display: inline;
+}
